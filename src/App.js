@@ -18,10 +18,11 @@ const CounterApp = () => {
   };
   return (
       <div className="App">
+        <p>Counter App</p>
           <div className="number">{counter}</div>
           <button className="button" onClick={counterUp}>+</button>
           <button className="button" onClick={counterDown}>-</button>
-          <button className="button" onClick={resetCounter}>Reset</button>
+          <button className="button reset-button-margin" onClick={resetCounter}>Reset</button>
       </div>
   );
 };

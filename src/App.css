@@ -12,13 +12,15 @@
 
 .number {
   text-align: center;
-  font-size: 6rem;
+  font-size: 8rem;
   padding: 2rem;
+  /* font-weight: lighter; */
 }
 
 .button {
   border-radius: 3rem;
-  width: 14%;
+  border: none;
+  width: 12%;
   display: inline-block;
   background-color: #403f3f;
   padding: 12px;
@@ -31,4 +33,13 @@
 
 .button:hover {
   background-color: #767676;
+}
+
+p {
+  font-size: 8rem;
+  text-decoration: underline;
+}
+
+.reset-button-margin {
+  margin-bottom: 8rem;
 }
