@@ -1,1 +1,1 @@
-# Counter-app-react.js
+# Counter App
