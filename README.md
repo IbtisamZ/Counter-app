@@ -3,4 +3,4 @@
 In this simple project, we use React states to store, update and mange data in a component. 
 
 ---
-## [Click here to view the demo.](https://ibtisamz.github.io/Counter-app-react.js/)
+## [Click here to view the demo.](https://ibtisamz.github.io/Counter-app/)
