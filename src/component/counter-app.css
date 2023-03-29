@@ -8,12 +8,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
 
 .number {
   text-align: center;
   font-size: 8rem;
-  padding: 2rem;
   color: #403f3f;
 }
 
@@ -57,11 +57,19 @@ body {
 }
 
 p {
-  font-size: 8rem;
+  font-size: 3.5rem;
   color: #373636;
-  text-decoration: underline 6px;
 }
 
 .reset-button-margin {
   margin-bottom: 8rem;
+}
+
+.developer-name {
+    width: 100%;
+    bottom: 10px;
+    position: absolute;
+    text-align: center;
+    color: #b8c3c6;
+    font-size: 13px;
 }

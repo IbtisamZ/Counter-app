@@ -1,5 +1,5 @@
 import './counter-app.css';
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 
 const CounterApp = () => {
@@ -9,13 +9,13 @@ const CounterApp = () => {
 
   // increment by 1
   const counterUp = () => {
-      setCounter(counter + 1);
+      setCounter((currentCounter) => currentCounter + 1);
   };
 
   // decrement by 1
   const counterDown = () => {
     counter > 0 &&
-       setCounter(counter - 1);
+    setCounter((currentCounter) => currentCounter - 1);
   };
 
   // reset counter to 0
@@ -24,6 +24,7 @@ const CounterApp = () => {
   };
 
   return (
+    <>
       <div className="App">
         <p>Counter App</p>
           <div className="number">{counter}</div>
@@ -33,6 +34,10 @@ const CounterApp = () => {
           </div>
           <button className="reset-button reset-button-margin" onClick={resetCounter}>Reset</button>
       </div>
+      <div className="developer-name">
+        — IbtisamZ —
+      </div>
+    </>
   );
 };
 
